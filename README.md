@@ -7,14 +7,15 @@ Ambisonics, which constructs a sound distribution over the full viewing sphere, 
 
 ### Downloads
 [User data](https://www.dropbox.com/s/z85elcckt3bjmrj/dataset_public.zip?dl=0)
+
 [ODVs](https://www.dropbox.com/s/4h18t344rw4vaha/videos.zip?dl=0)
 
 
 ### Citation
+| Paper accepted in [IEEE International Conference on Multimedia and Expo Workshops 2020 (ICMEW 2020) ](https://www.2020.ieeeicme.org/) |
+| ![qomex logo](img/logo.png) |
 
-| ![qomex logo](img/logo.png) | Paper accepted in [IEEE International Conference on Multimedia and Expo Workshops 2020 (ICMEW 2020) ](https://www.2020.ieeeicme.org/) |
-
-Please cite our [paper](https://github.com/cozcinar/omniAttention/blob/master/OmniAttention2018.pdf) in your publications if it helps your research:
+Please cite our [paper](https://github.com/cozcinar/omniAttention/blob/master/ICMEW2020.pdf) in your publications if it helps your research:
 ````
 @inproceedings{icmew2020,
 title = {audio-visual perception of omnidirectional video for virtual reality applications},
