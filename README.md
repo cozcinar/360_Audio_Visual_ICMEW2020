@@ -10,6 +10,27 @@ Ambisonics, which constructs a sound distribution over the full viewing sphere, 
 
 [ODVs](https://www.dropbox.com/s/4h18t344rw4vaha/videos.zip?dl=0)
 
+### Fixation and saliency map estimation
+
+Open-sourced script developed within visual attention estimation works for ODVs. The generated
+
+#### Requirements
+**Install using pip**
+````bash
+cd code/
+virtualenv audio_visual
+source activate audio_visual/bin/activate
+pip3 install -r requirements.txt
+````
+#### Run
+````bash
+python3 fixmap2salmap.py -i dataset_public/ -o videos/ -r 100x200 -s True
+````
+*Parameters*
+> -i: input user-data folder downloaded from [User data]
+> -o: input ODV dataset downloaded from [ODVs]
+> -r: required resolution output for saliency and fixation maps
+> -s: flag for saliency output, default is False.
 
 ### Citation
 | Paper accepted in [IEEE International Conference on Multimedia and Expo Workshops 2020 (ICMEW 2020) ](https://www.2020.ieeeicme.org/) |
