@@ -18,7 +18,7 @@ opencv-python==4.4.0.46
 packaging==20.3
 pandas==1.2.0
 pep517==0.8.2
-Pillow==8.0.1
+Pillow==8.3.2
 progress==1.5
 py360convert==0.1.0
 pyparsing==2.4.6
